@@ -51,6 +51,7 @@
     font-size: 25px;
     font-family: "Open Sans", sans-serif;
     color: #f7ca09;
+    font-weight: bolder;
 }
 
 .image-left {
@@ -192,12 +193,12 @@
 
 .triangle-left {
     left: 0;
-    border-width: 0 955px 90px 0;
+    border-width: 0 955px 100px 0;
     border-color: transparent transparent #f7ca09 transparent;
 }
 
 .triangle-right {
     right: 0;
-    border-width: 0 0 90px 955px;
+    border-width: 0 0 100px 955px;
     border-color: transparent transparent #f7ca09 transparent;
 }
