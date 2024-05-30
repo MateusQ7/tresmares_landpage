@@ -209,6 +209,7 @@
     flex-direction: row;
     justify-content: center;
     align-self: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .goal1, .goal2, .goal3 {
@@ -257,8 +258,9 @@
 }
 
 .list {
-    width: 48%;
+    width: auto;
     height: 100%;
+    list-style-position: inside;
 }
 
 .textgoal {
@@ -330,10 +332,10 @@
 .doar {
     width: 100%;
     height: 100%;
-    background-color: lawngreen;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #03989E;
 }
 
 .contact-partnership{
@@ -342,13 +344,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
 }
 
 .contact-title {
     width: 50%;
     height: auto;
-    background-color: hotpink;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -357,18 +357,26 @@
 .partnership-title{
     width: 50%;
     height: auto;
-    background-color: saddlebrown;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contact {
-    width: 50%;
-    height: auto;
-    background-color: red;
+.textgoal-partnership {
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     display: flex;
     justify-content: center;
+    color: #ffffff;
+}
+
+.contact {
+    width: 50%;
+    height: 100%;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -376,7 +384,6 @@
 .partnership{
     width: 50%;
     height: auto;
-    background-color: tomato;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -385,22 +392,90 @@
 .doar-main {
     width: 50%;
     height: 20%;
-    background-color: cadetblue;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
+
+.line {
+    width: 100%;
+    height: 5px;
+    background-color: #ffffff;
+}
+
+.pix-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.pix-div {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
 .contact-main {
     width: 100%;
     height: 100%;
-    background-color: darkgoldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-contact-main {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textgoal-contact {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.text-style-box {
+    width: 50%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
 }
 
 .partnership-main {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram {
     width: 100%;
     height: 100%;
-    background-color: orange;
+    display: flex;
+    flex-direction: row;
 }
+
+.youtube {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row; 
+}
+
 .triangle-container {
     position: relative;
     width: 100%;
