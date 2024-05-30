@@ -87,6 +87,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .text1,
@@ -276,7 +277,7 @@
     height: 80%;
     display: flex;
     flex-direction: column;
-    background-color: #03989E;
+    background-color: red;
 }
 
 .action-main {
@@ -321,6 +322,85 @@
     justify-content: center;
 }
 
+.title-doar{
+    width: auto;
+    height: 10%;
+}
+
+.doar {
+    width: 100%;
+    height: 100%;
+    background-color: lawngreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-partnership{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.contact-title {
+    width: 50%;
+    height: auto;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnership-title{
+    width: 50%;
+    height: auto;
+    background-color: saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    width: 50%;
+    height: auto;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partnership{
+    width: 50%;
+    height: auto;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.doar-main {
+    width: 50%;
+    height: 20%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-main {
+    width: 100%;
+    height: 100%;
+    background-color: darkgoldenrod;
+}
+
+.partnership-main {
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+}
 .triangle-container {
     position: relative;
     width: 100%;
