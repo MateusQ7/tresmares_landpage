@@ -216,9 +216,8 @@
 .porpouse-main {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
 
 .porpouse-left {
@@ -339,8 +338,24 @@
     background-color: #03989E;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.email {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row; 
+    padding-bottom: 20px;
+}
+
+.wpp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row; 
+    padding-bottom: 20px;
 }
 
 .edital-left{
@@ -537,7 +552,6 @@
 .textgoal-contact {
     width: 100%;
     height: auto;
-    text-align: justify;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     display: flex;
@@ -546,7 +560,7 @@
 }
 
 .text-style-box {
-    width: 50%;
+    width: 80%;
     height: 22%;
     display: flex;
     flex-direction: column;
