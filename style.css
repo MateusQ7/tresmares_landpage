@@ -42,6 +42,37 @@
     font-weight: bold;
 }
 
+.buttons-edital{
+    width: 40%;
+    height: auto;
+
+}
+
+.edital-button {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.text-button {
+    width: auto;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+
 .buttom-doe{
     width: 100%;
     height: 100%;
@@ -53,9 +84,16 @@
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+    text-decoration: none;
+
+    a:visited {
+        color: #03989E
+      }
 }
 
-.about-main {
+
+
+#about-main {
     width: 100%;
     height: 80%;
     display: flex;
@@ -90,6 +128,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.text-footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .text1,
 .text2,
 .text3,
@@ -103,6 +150,7 @@
     font-family: "Open Sans", sans-serif;
     color: #ffffff;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 .image-left {
@@ -140,9 +188,9 @@
     color: #ffffff;
 }
 
-.porpouse {
+#porpouse {
     width: 100%;
-    height: 80%;
+    height: auto;
     display: flex;
     padding-top: 20px;
     flex-direction: column;
@@ -160,6 +208,7 @@
     font-size: 25px;
     font-family: "Open Sans", sans-serif;
     color: #ffffff;
+    padding-top: 50px;
 
 }
 
@@ -167,8 +216,9 @@
 .porpouse-main {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .porpouse-left {
@@ -200,12 +250,19 @@
 
 .li {
     width: 100%;
-    height: 10%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.li-editais {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
 }
 
 .ul {
     width: 100%;
-    height: 100%;
+    height: auto;
     flex-direction: row;
     justify-content: center;
     align-self: center;
@@ -242,7 +299,7 @@
 
 .title {
     width: auto;
-    height: 100%;
+    height: auto;
     font-size: 50px;
     font-family: "Open Sans", sans-serif;
     color: #ffffff;
@@ -274,13 +331,35 @@
     color: #ffffff;
 }
 
-.our-actions{
+#edital{
     width: 100%;
-    height: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    background-color: #03989E;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.edital-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edital-right{
+    width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: red;
+    align-items: center;
 }
+
+
 
 .action-main {
     width: 100%;
@@ -327,11 +406,13 @@
 .title-doar{
     width: auto;
     height: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.doar {
+#doar {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -343,7 +424,6 @@
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .contact-title {
@@ -352,6 +432,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .partnership-title{
@@ -360,6 +441,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .textgoal-partnership {
@@ -373,10 +455,23 @@
     color: #ffffff;
 }
 
-.contact {
+.editais {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+#contact {
     width: 50%;
     height: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
@@ -396,6 +491,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .line {
@@ -410,7 +506,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    padding-top: 30px;
 }
 
 .pix-div {
@@ -467,6 +564,7 @@
     height: 100%;
     display: flex;
     flex-direction: row;
+    padding-bottom: 20px;
 }
 
 .youtube {
@@ -474,6 +572,7 @@
     height: 100%;
     display: flex;
     flex-direction: row; 
+    padding-bottom: 20px;
 }
 
 .triangle-container {
@@ -501,4 +600,14 @@
     right: 0;
     border-width: 0 0 100px 955px;
     border-color: transparent transparent #ffffff transparent;
+}
+
+.footer-bar{
+    width: 100%;
+    height: 13%;
+    background-color: #03989E;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
 }
